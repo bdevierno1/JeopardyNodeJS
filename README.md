@@ -1,5 +1,5 @@
-# JeapordyNodeJS
-# Jeapordy Application
+# JeopardyNodeJS
+# Jeopardy Application
 A nodejs web application that allows users to play endless hours of jeapordy. Uses the http://jservice.io/ API
 
 # Motivation
