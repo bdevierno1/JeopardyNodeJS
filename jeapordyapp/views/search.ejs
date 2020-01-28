@@ -1,0 +1,16 @@
+<%- include ("partials/header") %>
+<h1>Lets Play Jeopardy!</h1>
+
+<ul>
+    <li>The Question is: <%= random[0].question %></li>
+    <li>The Catgory is: <%= random[0].category.title %></li>
+    <li>Value: <%= random[0].value %></li>
+</ul>
+
+
+<form action="/results" method="GET">
+    <input type="text" placeholder="Your answer" name = "answer">
+    <input type="submit">
+</form>
+
+<%- include ("partials/footer") %>
