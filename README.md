@@ -1,5 +1,4 @@
-# JeopardyNodeJS
-# Jeopardy Application
+# JeopardyNodeJS Appllication
 A nodejs web application that allows users to play endless hours of jeapordy. Uses the http://jservice.io/ API
 
 # Motivation
@@ -29,10 +28,17 @@ Things to do:
 - JavaScript
 - NodeJs
 
+# How to run
+Note: npm needs to be installed on your machine
+- cd into jeopardyapp
+- run npm install (download dependecies)
+- run node app.js
+- go to local host 3000 on browser
+
 **Dependencies**
--ejs: ^3.0.1
--express:^4.17.1
--request: ^2.88.0
+- ejs: ^3.0.1
+- express:^4.17.1
+- request: ^2.88.0
 
 
 # License
